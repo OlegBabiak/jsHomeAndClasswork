@@ -71,21 +71,21 @@ if (temperature >= 10 && temperature <= 22) {
 
 
 // 6
-let enteredNumber = "5";
+let enteredNumber = 1;
 switch (enteredNumber) {
-    case "1":
+    case 1:
         console.log("дається приз Авто");
         break;
-    case "2":
+    case 2:
         console.log("дається приз Мото");
         break;
-    case "3":
+    case 3:
         console.log("дається приз Телефон");
         break;
-    case "4":
+    case 4:
         console.log("дається приз Скейт");
         break;
-    case "5":
+    case 5:
         console.log("дається приз jack daniels");
         break;
     default:
