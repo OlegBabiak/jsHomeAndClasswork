@@ -27,7 +27,7 @@ console.log(cylinderCapacity(100, 10).toFixed(2));
 // 4 - створити функцію яка приймає масив та виводить кожен його елемент
 
 function arrWriter(arr) {
-    for (item of arr) {
+    for (let item of arr) {
         document.write(item + "</br>");
     }
 }
